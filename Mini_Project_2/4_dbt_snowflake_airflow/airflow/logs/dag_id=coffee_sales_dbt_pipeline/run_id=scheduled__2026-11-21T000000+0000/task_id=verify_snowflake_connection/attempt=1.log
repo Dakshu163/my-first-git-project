@@ -1,0 +1,63 @@
+[2026-11-22T00:00:01.446+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-11-22T00:00:01.483+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: coffee_sales_dbt_pipeline.verify_snowflake_connection scheduled__2026-11-21T00:00:00+00:00 [queued]>
+[2026-11-22T00:00:01.506+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: coffee_sales_dbt_pipeline.verify_snowflake_connection scheduled__2026-11-21T00:00:00+00:00 [queued]>
+[2026-11-22T00:00:01.508+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-11-22T00:00:01.529+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): verify_snowflake_connection> on 2026-11-21 00:00:00+00:00
+[2026-11-22T00:00:01.548+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'coffee_sales_dbt_pipeline', 'verify_snowflake_connection', 'scheduled__2026-11-21T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/coffee-sales-dag.py', '--cfg-path', '/tmp/tmp2g0b4cvt']
+[2026-11-22T00:00:01.553+0000] {standard_task_runner.py:105} INFO - Job 12: Subtask verify_snowflake_connection
+[2026-11-22T00:00:01.558+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2357) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-11-22T00:00:01.560+0000] {standard_task_runner.py:72} INFO - Started process 2358 to run task
+[2026-11-22T00:00:01.639+0000] {task_command.py:467} INFO - Running <TaskInstance: coffee_sales_dbt_pipeline.verify_snowflake_connection scheduled__2026-11-21T00:00:00+00:00 [running]> on host 842b0ab7fc5f
+[2026-11-22T00:00:01.788+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='brewbeats_data_eng' AIRFLOW_CTX_DAG_ID='coffee_sales_dbt_pipeline' AIRFLOW_CTX_TASK_ID='verify_snowflake_connection' AIRFLOW_CTX_EXECUTION_DATE='2026-11-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-11-21T00:00:00+00:00'
+[2026-11-22T00:00:01.791+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-11-22T00:00:01.828+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-11-22T00:00:01.832+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt/dbt_snowflake_*** && dbt debug']
+[2026-11-22T00:00:01.850+0000] {subprocess.py:99} INFO - Output:
+[2026-11-22T00:00:09.418+0000] {subprocess.py:106} INFO - [0m00:00:09  Running with dbt=1.12.7
+[2026-11-22T00:00:09.454+0000] {subprocess.py:106} INFO - [0m00:00:09  dbt version: 1.12.7
+[2026-11-22T00:00:09.457+0000] {subprocess.py:106} INFO - [0m00:00:09  python version: 3.12.9
+[2026-11-22T00:00:09.459+0000] {subprocess.py:106} INFO - [0m00:00:09  python path: /home/***/.local/bin/python
+[2026-11-22T00:00:09.463+0000] {subprocess.py:106} INFO - [0m00:00:09  os info: Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2026-11-22T00:00:13.347+0000] {subprocess.py:106} INFO - [0m00:00:13  Using profiles dir at /opt/***/.dbt
+[2026-11-22T00:00:13.349+0000] {subprocess.py:106} INFO - [0m00:00:13  Using profiles.yml file at /opt/***/.dbt/profiles.yml
+[2026-11-22T00:00:13.351+0000] {subprocess.py:106} INFO - [0m00:00:13  Using dbt_project.yml file at /opt/***/dbt/dbt_snowflake_***/dbt_project.yml
+[2026-11-22T00:00:13.354+0000] {subprocess.py:106} INFO - [0m00:00:13  adapter type: snowflake
+[2026-11-22T00:00:13.355+0000] {subprocess.py:106} INFO - [0m00:00:13  adapter version: 1.9.2
+[2026-11-22T00:00:13.615+0000] {subprocess.py:106} INFO - [0m00:00:13  Configuration:
+[2026-11-22T00:00:13.618+0000] {subprocess.py:106} INFO - [0m00:00:13    profiles.yml file [[32mOK found and valid[0m]
+[2026-11-22T00:00:13.621+0000] {subprocess.py:106} INFO - [0m00:00:13    dbt_project.yml file [[32mOK found and valid[0m]
+[2026-11-22T00:00:13.624+0000] {subprocess.py:106} INFO - [0m00:00:13  Required dependencies:
+[2026-11-22T00:00:13.656+0000] {subprocess.py:106} INFO - [0m00:00:13   - git [[32mOK found[0m]
+[2026-11-22T00:00:13.658+0000] {subprocess.py:106} INFO - 
+[2026-11-22T00:00:13.659+0000] {subprocess.py:106} INFO - [0m00:00:13  Connection:
+[2026-11-22T00:00:13.660+0000] {subprocess.py:106} INFO - [0m00:00:13    account: DCUYNDN-HJ87912
+[2026-11-22T00:00:13.662+0000] {subprocess.py:106} INFO - [0m00:00:13    user: DAKSHU
+[2026-11-22T00:00:13.664+0000] {subprocess.py:106} INFO - [0m00:00:13    database: dbt_snowflake_db
+[2026-11-22T00:00:13.668+0000] {subprocess.py:106} INFO - [0m00:00:13    warehouse: dbt_snowflake_wh
+[2026-11-22T00:00:13.670+0000] {subprocess.py:106} INFO - [0m00:00:13    role: dbt_snowflake_role
+[2026-11-22T00:00:13.673+0000] {subprocess.py:106} INFO - [0m00:00:13    schema: dbt_snowflake_schema
+[2026-11-22T00:00:13.675+0000] {subprocess.py:106} INFO - [0m00:00:13    authenticator: None
+[2026-11-22T00:00:13.677+0000] {subprocess.py:106} INFO - [0m00:00:13    oauth_client_id: None
+[2026-11-22T00:00:13.681+0000] {subprocess.py:106} INFO - [0m00:00:13    query_tag: None
+[2026-11-22T00:00:13.685+0000] {subprocess.py:106} INFO - [0m00:00:13    client_session_keep_alive: False
+[2026-11-22T00:00:13.688+0000] {subprocess.py:106} INFO - [0m00:00:13    host: None
+[2026-11-22T00:00:13.691+0000] {subprocess.py:106} INFO - [0m00:00:13    port: None
+[2026-11-22T00:00:13.693+0000] {subprocess.py:106} INFO - [0m00:00:13    proxy_host: None
+[2026-11-22T00:00:13.695+0000] {subprocess.py:106} INFO - [0m00:00:13    proxy_port: None
+[2026-11-22T00:00:13.698+0000] {subprocess.py:106} INFO - [0m00:00:13    protocol: None
+[2026-11-22T00:00:13.700+0000] {subprocess.py:106} INFO - [0m00:00:13    connect_retries: 1
+[2026-11-22T00:00:13.702+0000] {subprocess.py:106} INFO - [0m00:00:13    connect_timeout: None
+[2026-11-22T00:00:13.704+0000] {subprocess.py:106} INFO - [0m00:00:13    retry_on_database_errors: False
+[2026-11-22T00:00:13.706+0000] {subprocess.py:106} INFO - [0m00:00:13    retry_all: False
+[2026-11-22T00:00:13.709+0000] {subprocess.py:106} INFO - [0m00:00:13    insecure_mode: False
+[2026-11-22T00:00:13.716+0000] {subprocess.py:106} INFO - [0m00:00:13    reuse_connections: True
+[2026-11-22T00:00:13.718+0000] {subprocess.py:106} INFO - [0m00:00:13  Registered adapter: snowflake=1.9.2
+[2026-11-22T00:00:17.236+0000] {subprocess.py:106} INFO - [0m00:00:17    Connection test: [[32mOK connection ok[0m]
+[2026-11-22T00:00:17.237+0000] {subprocess.py:106} INFO - 
+[2026-11-22T00:00:17.239+0000] {subprocess.py:106} INFO - [0m00:00:17  [32mAll checks passed![0m
+[2026-11-22T00:00:18.545+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-11-22T00:00:18.582+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-11-22T00:00:18.583+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=coffee_sales_dbt_pipeline, task_id=verify_snowflake_connection, run_id=scheduled__2026-11-21T00:00:00+00:00, execution_date=20261121T000000, start_date=20261122T000001, end_date=20261122T000018
+[2026-11-22T00:00:18.650+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-11-22T00:00:18.696+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-11-22T00:00:18.699+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
