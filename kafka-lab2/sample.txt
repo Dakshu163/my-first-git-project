@@ -1,0 +1,5 @@
+﻿1/5 | INGEST: Every line in this file becomes an immutable Kafka record.
+2/5 | APPEND: Producers push events sequentially to the end of the topic log.
+3/5 | RETAIN: Kafka persists messages on disk - reading them never deletes them.
+4/5 | TRACK : Consumers pull at their own pace, bookmarking progress via offsets.
+5/5 | END   : Stream complete. Ready for replay from offset 0 at any time.

@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: "Final orders fact table combining net payment amounts with customer names."
+    columns:
+      - name: order_id
+        description: "Primary key for each order."
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: "Foreign key referencing stg_customers."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+      - name: net_amount
+        description: "Order amount after accounting for refunds (0 if refunded)."
