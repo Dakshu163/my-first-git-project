@@ -1,0 +1,79 @@
+=== Part 1: Read Files ===
+Rahul
+Priya
+Amit
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+ERROR database connection failed
+ERROR retry failed
+=== Part 2: Inspect the Beginning and End ===
+1
+2
+3
+4
+5
+id,name
+1,Rahul
+2,Priya
+3,Amit
+7
+8
+9
+10
+=== Part 3: Count and Extract Data ===
+4 /c/Users/Guest User/linux_prework/l3_q9/colours.txt
+4
+customer_id,city
+1,Pune
+2,Mumbai
+3,Nashik
+=== Part 4: Sort and Count Repeated Values ===
+Ahmedabad
+Delhi
+Mumbai
+Pune
+Normal sort:
+100
+15
+20
+3
+Numeric sort:
+3
+15
+20
+100
+      1 Delhi
+      2 Mumbai
+      3 Pune
+=== Optional Practice (Q.17 - Q.20) ===
+900
+450
+300
+      3 Pune
+      2 Mumbai
+      1 Delhi
+INFO started
+ERROR connection failed
+Header + first 2 rows:
+order_id,amount
+101,250
+102,100
+Last 2 rows:
+104,200
+105,700
+Data row count:
+5
+Amounts largest to smallest:
+700
+450
+250
+200
+100
