@@ -1,0 +1,54 @@
+=== Part 1: if, elif, and else ===
+Valid order amount
+Passed
+Medium value order
+
+=== Part 2: Nested Conditions ===
+Order approved with priority
+Reject invalid record
+Allowed (nested)
+Allowed (combined)
+
+=== Part 3: for and while ===
+1
+2
+3
+4
+5
+Running total: 15
+1
+2
+3
+4
+5
+
+=== Part 4: break and continue ===
+1
+2
+3
+4
+5
+1
+3
+5
+7
+9
+Valid: 5
+Valid: 6
+Valid: 7
+
+=== Optional Practice (Q.17 - Q.20) ===
+Good
+Invalid value: -2
+Invalid value: 0
+Accepted: 7
+1
+2
+3
+4
+5
+Valid count: 5
+Attempt: 1
+Attempt: 2
+Attempt: 3
+Maximum attempts reached
