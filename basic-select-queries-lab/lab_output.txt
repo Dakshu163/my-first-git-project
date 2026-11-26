@@ -1,0 +1,117 @@
+=== Q.1 Select All Orders ===
+(101, 'Amit Patil', 'Pune', '2026-08-01', 'DELIVERED', 1200, 'SAVE10')
+(102, 'Neha Shah', 'Mumbai', '2026-08-02', 'SHIPPED', 850, None)
+(103, 'Rahul Verma', 'Delhi', '2026-08-03', 'PLACED', 2100, 'NEW20')
+(104, 'Priya Nair', 'Bengaluru', '2026-08-04', 'CANCELLED', 499, None)
+(105, 'Arjun Mehta', 'Pune', '2026-08-05', 'DELIVERED', 3200, 'SAVE10')
+(106, 'Kavya Iyer', 'Chennai', '2026-08-06', 'SHIPPED', 1750, None)
+(107, 'Sara Khan', 'Mumbai', '2026-08-07', 'PLACED', 999, 'NEW20')
+(108, 'Rohan Das', 'Pune', '2026-08-08', 'DELIVERED', 2400, None)
+(109, 'Maya Rao', None, '2026-08-09', 'PLACED', 650, None)
+(110, 'Vikram Singh', 'Delhi', '2026-08-10', 'SHIPPED', 1800, 'SAVE10')
+
+=== Q.2 Select Specific Columns ===
+(101, 'Amit Patil', 1200)
+(102, 'Neha Shah', 850)
+(103, 'Rahul Verma', 2100)
+(104, 'Priya Nair', 499)
+(105, 'Arjun Mehta', 3200)
+(106, 'Kavya Iyer', 1750)
+(107, 'Sara Khan', 999)
+(108, 'Rohan Das', 2400)
+(109, 'Maya Rao', 650)
+(110, 'Vikram Singh', 1800)
+
+=== Q.3 Filter by Status (DELIVERED) ===
+(101, 'Amit Patil', 'Pune', '2026-08-01', 'DELIVERED', 1200, 'SAVE10')
+(105, 'Arjun Mehta', 'Pune', '2026-08-05', 'DELIVERED', 3200, 'SAVE10')
+(108, 'Rohan Das', 'Pune', '2026-08-08', 'DELIVERED', 2400, None)
+
+=== Q.5 Combine Conditions (Pune & >1500) ===
+(105, 'Arjun Mehta', 'Pune', '2026-08-05', 'DELIVERED', 3200, 'SAVE10')
+(108, 'Rohan Das', 'Pune', '2026-08-08', 'DELIVERED', 2400, None)
+
+=== Q.6 Use IN (PLACED, SHIPPED) ===
+(102, 'Neha Shah', 'Mumbai', '2026-08-02', 'SHIPPED', 850, None)
+(103, 'Rahul Verma', 'Delhi', '2026-08-03', 'PLACED', 2100, 'NEW20')
+(106, 'Kavya Iyer', 'Chennai', '2026-08-06', 'SHIPPED', 1750, None)
+(107, 'Sara Khan', 'Mumbai', '2026-08-07', 'PLACED', 999, 'NEW20')
+(109, 'Maya Rao', None, '2026-08-09', 'PLACED', 650, None)
+(110, 'Vikram Singh', 'Delhi', '2026-08-10', 'SHIPPED', 1800, 'SAVE10')
+
+=== Q.7 Use BETWEEN (1000..2000) ===
+(101, 'Amit Patil', 'Pune', '2026-08-01', 'DELIVERED', 1200, 'SAVE10')
+(106, 'Kavya Iyer', 'Chennai', '2026-08-06', 'SHIPPED', 1750, None)
+(110, 'Vikram Singh', 'Delhi', '2026-08-10', 'SHIPPED', 1800, 'SAVE10')
+
+=== Q.9 Distinct Non-Null Cities ===
+('Bengaluru',)
+('Chennai',)
+('Delhi',)
+('Mumbai',)
+('Pune',)
+
+=== Q.10 Search with LIKE ('P%') ===
+(104, 'Priya Nair')
+
+=== Q.11 Find Missing Cities ===
+(109, 'Maya Rao', None)
+
+=== Q.13 Sort Highest Amount First ===
+(105, 'Arjun Mehta', 3200)
+(108, 'Rohan Das', 2400)
+(103, 'Rahul Verma', 2100)
+(110, 'Vikram Singh', 1800)
+(106, 'Kavya Iyer', 1750)
+(101, 'Amit Patil', 1200)
+(107, 'Sara Khan', 999)
+(102, 'Neha Shah', 850)
+(109, 'Maya Rao', 650)
+(104, 'Priya Nair', 499)
+
+=== Q.14 Top Three Highest Orders ===
+(105, 'Arjun Mehta', 3200)
+(108, 'Rohan Das', 2400)
+(103, 'Rahul Verma', 2100)
+
+=== Q.15 Alias (order_value) ===
+(101, 1200)
+(102, 850)
+(103, 2100)
+(104, 499)
+(105, 3200)
+(106, 1750)
+(107, 999)
+(108, 2400)
+(109, 650)
+(110, 1800)
+
+=== Q.17 Use NOT IN ===
+(102, 'Neha Shah', 'Mumbai', '2026-08-02', 'SHIPPED', 850, None)
+(103, 'Rahul Verma', 'Delhi', '2026-08-03', 'PLACED', 2100, 'NEW20')
+(106, 'Kavya Iyer', 'Chennai', '2026-08-06', 'SHIPPED', 1750, None)
+(107, 'Sara Khan', 'Mumbai', '2026-08-07', 'PLACED', 999, 'NEW20')
+(109, 'Maya Rao', None, '2026-08-09', 'PLACED', 650, None)
+(110, 'Vikram Singh', 'Delhi', '2026-08-10', 'SHIPPED', 1800, 'SAVE10')
+
+=== Q.18 Date Range Filter ===
+(104, 'Priya Nair', 'Bengaluru', '2026-08-04', 'CANCELLED', 499, None)
+(105, 'Arjun Mehta', 'Pune', '2026-08-05', 'DELIVERED', 3200, 'SAVE10')
+(106, 'Kavya Iyer', 'Chennai', '2026-08-06', 'SHIPPED', 1750, None)
+(107, 'Sara Khan', 'Mumbai', '2026-08-07', 'PLACED', 999, 'NEW20')
+(108, 'Rohan Das', 'Pune', '2026-08-08', 'DELIVERED', 2400, None)
+
+=== Q.19 Coupon Code IS NOT NULL ===
+(101, 'Amit Patil', 'SAVE10')
+(103, 'Rahul Verma', 'NEW20')
+(105, 'Arjun Mehta', 'SAVE10')
+(107, 'Sara Khan', 'NEW20')
+(110, 'Vikram Singh', 'SAVE10')
+
+=== Q.20 Combined Read Query ===
+(110, 'Vikram Singh', 'SHIPPED', 1800)
+(108, 'Rohan Das', 'DELIVERED', 2400)
+(107, 'Sara Khan', 'PLACED', 999)
+(106, 'Kavya Iyer', 'SHIPPED', 1750)
+(105, 'Arjun Mehta', 'DELIVERED', 3200)
+
