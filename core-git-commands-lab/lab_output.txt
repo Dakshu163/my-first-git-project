@@ -1,0 +1,67 @@
+=== Part 1: Initialise and Inspect a Repository ===
+## No commits yet on main
+?? README.md
+A  README.md
+?? notes.txt
+=== Part 2: Create and Review Commits ===
+fbd8943 Update notes
+0db959b Add notes
+d37d390 Add batch configuration
+ config.txt | 1 +
+ 1 file changed, 1 insertion(+)
+=== Part 3: Compare and Restore Changes ===
+diff --git a/settings.txt b/settings.txt
+index 7ea0826..c613986 100644
+--- a/settings.txt
++++ b/settings.txt
+@@ -1 +1 @@
+-batch_size=100
++batch_size=500
+diff --git a/settings.txt b/settings.txt
+index 58f1399..4394617 100644
+--- a/settings.txt
++++ b/settings.txt
+@@ -1 +1 @@
+-retries=1
++retries=3
+environment=dev
+=== Part 4: Unstage, Ignore, and Check State ===
+Before unstaging:
+M  settings.txt
+After unstaging:
+ M settings.txt
+diff --git a/settings.txt b/settings.txt
+index 28dee2f..110d4e1 100644
+--- a/settings.txt
++++ b/settings.txt
+@@ -1 +1 @@
+-mode=basic
++mode=extended
+?? .gitignore
+?? README.md
+?? .gitignore
+?? data/
+=== Optional Practice (Q.17 - Q.20) ===
+M  a.txt
+ M b.txt
+A  keep.txt
+A  later.txt
+MM settings.txt
+Unstaged difference:
+diff --git a/settings.txt b/settings.txt
+index 9e3df68..5cdcb97 100644
+--- a/settings.txt
++++ b/settings.txt
+@@ -1 +1 @@
+-value=2
++value=3
+Staged difference:
+diff --git a/settings.txt b/settings.txt
+index 32c0381..9e3df68 100644
+--- a/settings.txt
++++ b/settings.txt
+@@ -1 +1 @@
+-value=1
++value=2
+cd5ef3d Add batch settings
+d1cfb26 Add README and ignore rules
