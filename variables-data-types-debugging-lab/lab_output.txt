@@ -1,0 +1,46 @@
+=== Part 1: Variables and Data Types ===
+Amit 24 Mumbai Data Engineering
+Keyboard
+2400
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+
+=== Part 2: Type Casting and Operators ===
+90
+1499.97
+13
+7
+30
+3.3333333333333335
+3
+1
+1000
+
+=== Part 3: Comparisons, Input, and Output ===
+True
+True
+True
+False
+True
+Sum of 10 and 20: 30
+
+=== Part 4: Formatting, Comments, and Debugging ===
+Customer Priya has an order amount of 3500.5
+3000
+Hello
+Amit
+Age is 25
+80
+100
+
+=== Optional Practice (Q.17 - Q.20) ===
+Product: Monitor
+Total: 25000.0
+True
+30
+Customer: Dakshayini
+Product: Laptop
+Total: 55000.0
+Premium Discount Eligible: True
