@@ -1,0 +1,32 @@
+=== Part 1: Lists and Tuples ===
+customers.csv
+payments.csv
+['Python', 'Spark']
+customer_id
+
+=== Part 2: Sets and Dictionaries ===
+{101, 102, 103}
+{'customers.csv', 'payments.csv'}
+Keyboard
+1200
+
+=== Part 3: Dictionaries and Nested Data ===
+{'customer_id': 101, 'name': 'Rahul', 'city': 'Mumbai', 'status': 'active'}
+City not available
+Nagpur
+
+=== Part 4: Comprehensions and Choosing Structures ===
+[1000, 2500, 4500]
+['RAHUL', 'PRIYA', 'AMIT']
+{'customers.csv': 'pending', 'orders.csv': 'pending', 'payments.csv': 'pending'}
+
+=== Optional Practice (Q.17 - Q.20) ===
+{'Pune': 3, 'Mumbai': 2, 'Delhi': 1}
+Accepted: [500, 1200, 700]
+Rejected: [0, -100]
+1001 Pune
+1002 Mumbai
+{101, 102, 103}
+('order_id', 'customer_id', 'amount')
+{'customer_id': 101, 'name': 'Rahul', 'city': 'Pune'}
+[1200, 1800, 950]
