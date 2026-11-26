@@ -1,0 +1,63 @@
+=== Part 1: Add and Inspect a Remote ===
+Local repository:
+total 4
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 02:02 .
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 02:02 ..
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 02:02 .git
+Bare remote:
+total 11
+drwxr-xr-x 1 Guest User 197121   0 Nov 26 02:02 .
+drwxr-xr-x 1 Guest User 197121   0 Nov 26 02:02 ..
+-rw-r--r-- 1 Guest User 197121 104 Nov 26 02:02 config
+-rw-r--r-- 1 Guest User 197121  73 Nov 26 02:02 description
+-rw-r--r-- 1 Guest User 197121  21 Nov 26 02:02 HEAD
+drwxr-xr-x 1 Guest User 197121   0 Nov 26 02:02 hooks
+drwxr-xr-x 1 Guest User 197121   0 Nov 26 02:02 info
+drwxr-xr-x 1 Guest User 197121   0 Nov 26 02:02 objects
+drwxr-xr-x 1 Guest User 197121   0 Nov 26 02:02 refs
+origin	C:/Users/Guest User/git_prework/l4_q2/remote_project.git (fetch)
+origin	C:/Users/Guest User/git_prework/l4_q2/remote_project.git (push)
+C:/Users/Guest User/git_prework/l4_q3/remote_project.git
+=== Part 2: Push and Clone ===
+branch 'main' set up to track 'origin/main'.
+To C:/Users/Guest User/git_prework/l4_q5/remote_project.git
+ * [new branch]      main -> main
+e262f82d6db078bf8ca56a3ece996f8d41365c3a refs/heads/main
+# Clone Practice
+920e37e Add README
+=== Part 3: Fetch and Pull ===
+Before fetch:
+version 1
+After fetch, working file is still:
+version 1
+Remote history:
+1162367 Update notes
+3b0049d Add notes
+version 1
+version 2
+## main...origin/main [ahead 1]
+* d4dafc2 (HEAD -> main) Add second note
+* 07cbec2 (origin/main) Add first note
+=== Part 4: Remote Maintenance and Verification ===
+C:/Users/Guest User/git_prework/l4_q13/remote_one.git
+C:/Users/Guest User/git_prework/l4_q13/remote_two.git
+origin	C:/Users/Guest User/git_prework/l4_q14/remote_project.git (fetch)
+origin	C:/Users/Guest User/git_prework/l4_q14/remote_project.git (push)
+After removal:
+After adding again:
+origin	C:/Users/Guest User/git_prework/l4_q14/remote_project.git (fetch)
+origin	C:/Users/Guest User/git_prework/l4_q14/remote_project.git (push)
+Local main:
+95538be8ae80df455f0f2e6c8ab9a846cf877e10
+Remote-tracking main:
+95538be8ae80df455f0f2e6c8ab9a846cf877e10
+=== Optional Practice (Q.17 - Q.20) ===
+Before:
+After:
+origin	C:/Users/Guest User/git_prework/l4_q17/remote_project.git (fetch)
+origin	C:/Users/Guest User/git_prework/l4_q17/remote_project.git (push)
+## main...origin/main [ahead 1]
+## main...origin/main [behind 1]
+batch_size=500
+c5ea0d9 Increase batch size
+11b8b6b Add project files
