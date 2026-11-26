@@ -1,0 +1,30 @@
+=== Part 1: Verify Python and Run Code ===
+Python 3.14.8
+5
+Python script is running
+=== Part 2: Virtual Environment Setup & Verification ===
+Before activation:
+C:\Users\Guest User\AppData\Local\Python\pythoncore-3.14-64\python.exe
+After activation:
+C:\Users\Guest User\Dak\my-first-git-project\python-setup-lab\.venv\Scripts\python.exe
+=== Part 3: pip and Project Dependencies ===
+Package Version
+------- -------
+pip     26.2.1
+requests
+requests
+=== Part 4: Reproducibility & Deactivation ===
+certifi==2026.11.20
+charset-normalizer==3.5.3
+idna==3.20
+requests==2.34.2
+urllib3==2.8.0
+Name: requests
+Version: 2.34.2
+Location: C:\Users\Guest User\Dak\my-first-git-project\python-setup-lab\.venv\Lib\site-packages
+Reactivated interpreter:
+C:\Users\Guest User\Dak\my-first-git-project\python-setup-lab\.venv\Scripts\python.exe
+=== Optional Practice (Q.17, Q.18, Q.20) ===
+Orders project ready
+Environment ready
+Fresh venv verified: requests
