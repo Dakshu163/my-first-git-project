@@ -1,0 +1,66 @@
+=== Part 1: Navigation and Listing ===
+/c/Users/Guest User/linux_prework/l2_q1
+total 4
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 .
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 ..
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 .hidden.txt
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 visible.txt
+/c/Users/Guest User/linux_prework/l2_q3/project
+=== Part 2: Create Files and Directories ===
+total 0
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 .
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 ..
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 data
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 output
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 src
+total 0
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 customers.csv
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 README.txt
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 sales.csv
+Linux file practice
+=== Part 3: Copy, Move, and Rename ===
+backup practice
+total 1
+-rw-r--r-- 1 Guest User 197121 15 Nov 26 01:20 data.csv
+total 1
+drwxr-xr-x 1 Guest User 197121  0 Nov 26 01:20 .
+drwxr-xr-x 1 Guest User 197121  0 Nov 26 01:20 ..
+-rw-r--r-- 1 Guest User 197121 14 Nov 26 01:20 result.csv
+=== Part 4: Safe Removal ===
+total 4
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 .
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 ..
+total 4
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 .
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 ..
+total 4
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 .
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 01:20 ..
+=== Optional Practice (Q.17 - Q.20) ===
+/c/Users/Guest User/linux_prework/l2_q17/project:
+input
+output
+
+/c/Users/Guest User/linux_prework/l2_q17/project/input:
+a.csv
+
+/c/Users/Guest User/linux_prework/l2_q17/project/output:
+result.csv
+total 0
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 a.csv
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 b.csv
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 c.csv
+total 0
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 processed_01.txt
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 01:20 processed_02.txt
+/c/Users/Guest User/linux_prework/l2_q20/archive:
+total 1
+drwxr-xr-x 1 Guest User 197121  0 Nov 26 01:20 .
+drwxr-xr-x 1 Guest User 197121  0 Nov 26 01:20 ..
+-rw-r--r-- 1 Guest User 197121 16 Nov 26 01:20 sales.csv
+
+/c/Users/Guest User/linux_prework/l2_q20/output:
+total 1
+drwxr-xr-x 1 Guest User 197121  0 Nov 26 01:20 .
+drwxr-xr-x 1 Guest User 197121  0 Nov 26 01:20 ..
+-rw-r--r-- 1 Guest User 197121 16 Nov 26 01:20 sales.csv
