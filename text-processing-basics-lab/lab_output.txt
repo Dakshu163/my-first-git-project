@@ -1,0 +1,63 @@
+=== Part 1: Start with awk ===
+INFO application started
+INFO request received
+WARN response slow
+ERROR database failed
+INFO application stopped
+one
+two
+three
+10.0.0.1 /home
+10.0.0.2 /products
+10.0.0.3 /login
+=== Part 2: Filter and Change Text ===
+10.0.0.2 GET /missing 404
+10.0.0.3 POST /login 500
+rahul@example.org
+priya@example.org
+amit@example.org
+first line
+second line
+third line
+=== Part 3: Work with CSV Fields and Counts ===
+Rahul Pune
+Priya Mumbai
+Amit Nashik
+1 Rahul
+3 Sneha
+200 3
+404 2
+500 1
+=== Part 4: Combine Text Processing Commands ===
+3 10.0.0.1
+1 10.0.0.3
+1 10.0.0.2
+This is Linux.
+Text processing is useful.
+Changed file:
+SearchBot
+Mozilla
+SearchBot
+Backup:
+Googlebot
+Mozilla
+Googlebot
+=== Optional Practice (Q.17 - Q.20) ===
+3 10.0.0.1
+2 10.0.0.2
+1 10.0.0.4
+2026-08-01 2
+2026-08-02 3
+Malformed: 3,BrokenRow
+Counts by status:
+200 3
+404 2
+500 1
+Counts by IP:
+3 10.0.0.1
+2 10.0.0.2
+1 10.0.0.3
+4xx and 5xx rows:
+10.0.0.1 GET /missing 404
+10.0.0.3 POST /login 500
+10.0.0.2 GET /missing 404
