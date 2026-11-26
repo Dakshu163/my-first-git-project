@@ -1,0 +1,28 @@
+=== Q.1: Create Two Manual Versions ===
+Version 1:
+Daily sales report
+Source: store system
+Version 2:
+Daily sales report
+Source: store system
+Refresh: every morning
+=== Q.2: Compare Two File Versions with diff ===
+2c2
+< batch_size=100
+---
+> batch_size=500
+=== Q.7: Restore a Manual Earlier Version ===
+Before restore:
+status=wrong
+After restore:
+status=correct
+=== Q.13: Separate Project Files from Generated Data ===
+/c/Users/Guest User/git_prework/l1_q13/project/notes/design.txt
+/c/Users/Guest User/git_prework/l1_q13/project/output/result.txt
+=== Q.18: Compare Two Three-Line Configurations ===
+1,2c1,2
+< environment=dev
+< batch_size=100
+---
+> environment=prod
+> batch_size=500
