@@ -1,0 +1,44 @@
+=== Part 1: Find Files by Name and Type ===
+/c/Users/Guest User/linux_prework/l4_q1/app.log
+/c/Users/Guest User/linux_prework/l4_q1/data/customers.csv
+/c/Users/Guest User/linux_prework/l4_q1/data/orders.csv
+/c/Users/Guest User/linux_prework/l4_q1/notes.txt
+/c/Users/Guest User/linux_prework/l4_q2/app.log
+/c/Users/Guest User/linux_prework/l4_q2/server1/service.log
+/c/Users/Guest User/linux_prework/l4_q3/app_error_01.log
+/c/Users/Guest User/linux_prework/l4_q3/error_app.log
+=== Part 2: Search Inside Files with grep ===
+ERROR connection failed
+ERROR retry failed
+2:WARN low memory
+4:WARN low disk
+/c/Users/Guest User/linux_prework/l4_q7/server1/app.log:2:ERROR db failed
+/c/Users/Guest User/linux_prework/l4_q7/server2/app.log:2:ERROR disk full
+=== Part 3: Count and Combine Search Conditions ===
+3
+WARN low memory
+ERROR database failed
+/c/Users/Guest User/linux_prework/l4_q11/server1/app.log:ERROR db failed
+/c/Users/Guest User/linux_prework/l4_q11/server2/app.log:ERROR disk full
+=== Part 4: Useful Search Filters ===
+/c/Users/Guest User/linux_prework/l4_q13/large.txt
+/c/Users/Guest User/linux_prework/l4_q14/recent.log
+ERROR compressed failure
+=== Optional Practice (Q.17 - Q.20) ===
+d97f9787516725e39231130ecfb216a7a40a558aea535953e998419b20b25abc */c/Users/Guest User/linux_prework/l4_q17/a.txt
+d97f9787516725e39231130ecfb216a7a40a558aea535953e998419b20b25abc */c/Users/Guest User/linux_prework/l4_q17/b.txt
+6d9a77831f10c125e4d1a8481005b16a0e59e79c548f52a922b4fa31a47656de */c/Users/Guest User/linux_prework/l4_q17/c.txt
+/c/Users/Guest User/linux_prework/l4_q18/b.log
+/c/Users/Guest User/linux_prework/l4_q18/c.log
+/c/Users/Guest User/linux_prework/l4_q19/error_db.log
+Log files:
+/c/Users/Guest User/linux_prework/l4_q20/api.log
+/c/Users/Guest User/linux_prework/l4_q20/db.log
+/c/Users/Guest User/linux_prework/l4_q20/payment.log
+ERROR counts:
+api.log: 1
+db.log: 2
+payment.log: 0
+Files containing ERROR:
+/c/Users/Guest User/linux_prework/l4_q20/api.log
+/c/Users/Guest User/linux_prework/l4_q20/db.log
