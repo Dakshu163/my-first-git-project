@@ -1,0 +1,24 @@
+=== Part 1: Verify Git ===
+git version 2.47.0.windows.1
+/mingw64/bin/git
+=== Part 2: Configure Identity ===
+Practice Student
+student@example.com
+=== Part 3: Inspect Useful Git Settings ===
+main
+file:C:/Users/Guest User/.gitconfig	user.name=Practice Student
+file:C:/Users/Guest User/.gitconfig	user.email=student@example.com
+file:C:/Users/Guest User/.gitconfig	init.defaultbranch=main
+=== Part 4: Prepare SSH Authentication ===
+OpenSSH_9.9p1, OpenSSL 3.2.3 3 Sep 2024
+Public key:
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIwLUDLw4sFLieLpzyXlieOAXp3toZ0uCsUOH+lIOfHE student@example.com
+=== Optional Practice (Q.17 - Q.20) ===
+student@example.com
+-rw-r--r-- 1 Guest User 197121 411 Nov 26 01:52 /c/Users/Guest User/git_prework/l2_q19/practice_ed25519
+-rw-r--r-- 1 Guest User 197121 101 Nov 26 01:52 /c/Users/Guest User/git_prework/l2_q19/practice_ed25519.pub
+Git: git version 2.47.0.windows.1
+Name: Dakshayini
+Email: dakshu163@gmail.com
+Default branch: main
+SSH: OpenSSH_9.9p1, OpenSSL 3.2.3 3 Sep 2024
