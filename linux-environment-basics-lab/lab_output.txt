@@ -1,0 +1,16 @@
+=== Part 1: Meet the Terminal ===
+User: Guest User
+Working Directory: /c/Users/Guest User/Dak/my-first-git-project/linux-environment-basics-lab
+Shell: /usr/bin/bash
+=== Part 2: Home, Root, and Paths ===
+Home (~): ~
+Home ($HOME): /c/Users/Guest User
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 00:01 /c/Users/Guest User/linux_prework/l1_q6
+=== Part 3: Absolute and Relative Paths ===
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 00:04 /c/Users/Guest User/linux_prework/l1_q9/data/raw
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 00:05 /c/Users/Guest User/linux_prework/l1_q10/one/two
+hello linux
+=== Part 4: Variables & Paths with Spaces ===
+COURSE_NAME: Data Engineering
+linux_prework
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 00:11 /c/Users/Guest User/linux_prework/l1_q15/My Data

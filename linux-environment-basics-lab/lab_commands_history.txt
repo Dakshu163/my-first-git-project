@@ -1,0 +1,50 @@
+   57  mkdir -p "$HOME/linux_prework/does_not_exist"
+   58  cd "$HOME/linux_prework/does_not_exist"
+   59  pwd
+   60  echo "User: $USER"
+   61  echo "Home: $HOME"
+   62  echo "Current directory: $(pwd)"
+   63  echo "Shell: $SHELL"
+   64  uname -a
+   65  history | tail -n 50 > lab_commands_history.txt
+   66  cat lab_output.txt
+   67  cd linux-environment-basics-lab
+   68  pwd
+   69  .
+   70  cd..
+   71  cd ..
+   72  pwd
+   73  cd "/c/Users/Guest User/Dak/my-first-git-project"
+   74  cd ..
+   75  cd my-first-git-project
+   76  cd "/c/Users/Guest User/Dak/my-first-git-project/linux-environment-basics-lab"
+   77  mkdir -p "$HOME/linux_prework/l1_q6" "$HOME/linux_prework/l1_q9/data/raw" "$HOME/linux_prework/l1_q10/one/two" "$HOME/linux_prework/l1_q11" "$HOME/linux_prework/l1_q15/My Data"
+   78  printf "hello linux\n" > "$HOME/linux_prework/l1_q11/message.txt"
+   79  cat << 'EOF' > linux_basics_lab.sh
+#!/bin/bash
+echo "=== Part 1: Meet the Terminal ==="
+echo "User: $(whoami)"
+echo "Working Directory: $(pwd)"
+echo "Shell: $SHELL"
+
+echo "=== Part 2: Home, Root, and Paths ==="
+echo "Home (~): ~"
+echo "Home (\$HOME): $HOME"
+ls -ld "$HOME/linux_prework/l1_q6"
+
+echo "=== Part 3: Absolute and Relative Paths ==="
+ls -ld "$HOME/linux_prework/l1_q9/data/raw"
+ls -ld "$HOME/linux_prework/l1_q10/one/two"
+cat "$HOME/linux_prework/l1_q11/message.txt"
+
+echo "=== Part 4: Variables & Paths with Spaces ==="
+COURSE_NAME="Data Engineering"
+export DE_PROJECT="linux_prework"
+echo "COURSE_NAME: $COURSE_NAME"
+printenv DE_PROJECT
+ls -ld "$HOME/linux_prework/l1_q15/My Data"
+EOF
+
+   80  chmod +x linux_basics_lab.sh
+   81  ./linux_basics_lab.sh > lab_output.txt
+   82  history | tail -n 50 > lab_commands_history.txt

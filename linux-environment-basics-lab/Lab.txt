@@ -1,0 +1,11 @@
+Q. 4 — What does pwd show?
+Ans. C. The current working directory
+
+Q. 8 — Which command safely moves you to your own home directory?
+Ans. A. cd ~
+
+Q. 12 — Which path is relative to the current directory? 
+Ans. D. data/file.csv
+
+Q. 16 — Why is export used for an environment variable?
+Ans. B. To make it available to child processes
