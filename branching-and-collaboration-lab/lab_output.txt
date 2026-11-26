@@ -1,0 +1,71 @@
+=== Part 1: Create and Switch Branches ===
+  feature/add-notes
+* main
+feature/settings
+feature/docs
+=== Part 2: Commit and Merge Feature Work ===
+total 13
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 02:09 .
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 02:09 ..
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 02:09 .git
+-rw-r--r-- 1 Guest User 197121 5 Nov 26 02:09 base.txt
+total 14
+drwxr-xr-x 1 Guest User 197121  0 Nov 26 02:09 .
+drwxr-xr-x 1 Guest User 197121  0 Nov 26 02:09 ..
+drwxr-xr-x 1 Guest User 197121  0 Nov 26 02:09 .git
+-rw-r--r-- 1 Guest User 197121  5 Nov 26 02:09 base.txt
+-rw-r--r-- 1 Guest User 197121 14 Nov 26 02:09 report.txt
+* 71593af (HEAD -> main, feature/report) Add report notes
+* d49fc8b Add base
+*   f24b6ae (HEAD -> main) Merge feature/update
+|\  
+| * 4ff35ab (feature/update) Add feature line
+|/  
+* 7ac111a Add base
+=== Part 3: Understand and Resolve Conflicts ===
+UU settings.txt
+<<<<<<< HEAD
+mode=main
+=======
+mode=feature
+>>>>>>> feature/mode
+<<<<<<< HEAD
+value=main
+=======
+value=feature
+>>>>>>> feature/config
+batch_size=500
+*   d4330e2 Resolve batch-size merge conflict
+|\  
+| * 22286e4 Increase batch size on feature
+* | a08b5d8 Change batch size on main
+|/  
+* c48896a Add base batch size
+=== Part 4: Collaborate Through a Shared Remote ===
+* feature/docs                af4b407 [origin/feature/docs] Add documentation
+  main                        7e9e350 [origin/main] Add README
+  remotes/origin/feature/docs af4b407 Add documentation
+  remotes/origin/main         7e9e350 Add README
+  origin/HEAD -> origin/main
+  origin/feature/report
+  origin/main
+A	report.txt
+=== Optional Practice (Q.17 - Q.20) ===
+* main
+UU config.txt
+value=main
+d468761 Continue shared feature
+diff --git a/settings.txt b/settings.txt
+new file mode 100644
+index 0000000..eb1011e
+--- /dev/null
++++ b/settings.txt
+@@ -0,0 +1,2 @@
++batch_size=100
++retries=3
+*   069dea4 (HEAD -> main, origin/main) Merge feature/settings
+|\  
+| * 7cbb9f1 (origin/feature/settings, feature/settings) Add retry setting
+| * 1db623c Add batch setting
+|/  
+* 63cf998 Add project
