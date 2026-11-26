@@ -1,0 +1,32 @@
+=== Part 1: Define and Call Functions ===
+Hello, Alice!
+Lovelace, Ada
+{'id': 101, 'name': 'Alice', 'active': True}
+{'id': 102, 'name': 'Bob', 'active': False}
+
+=== Part 2: Defaults, *args, **kwargs, and Returns ===
+('localhost', 5432)
+('localhost', 5433)
+[1]
+[2]
+60
+
+=== Part 3: **kwargs, Return Values, and Scope ===
+{'id': 1, 'name': 'Alice', 'active': True}
+Grace
+Hopper
+30
+
+=== Part 4: Reusable Utilities and Modules ===
+alice
+25
+-1
+42
+
+=== Optional Practice (Q.17 - Q.20) ===
+{'id': '101', 'name': 'alice', 'age': 30}
+15
+priya
+31
+Valid rows: 3
+Average age: 23.333333333333332
