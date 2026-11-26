@@ -1,0 +1,94 @@
+=== Part 1: Build a Clear Repository Structure ===
+/c/Users/Guest User/git_prework/l6_q1/project
+/c/Users/Guest User/git_prework/l6_q1/project/config
+/c/Users/Guest User/git_prework/l6_q1/project/data
+/c/Users/Guest User/git_prework/l6_q1/project/docs
+/c/Users/Guest User/git_prework/l6_q1/project/README.md
+/c/Users/Guest User/git_prework/l6_q1/project/scripts
+/c/Users/Guest User/git_prework/l6_q1/project/sql
+/c/Users/Guest User/git_prework/l6_q2/project/data/raw/orders.csv
+/c/Users/Guest User/git_prework/l6_q2/project/data/sample/orders_sample.csv
+/c/Users/Guest User/git_prework/l6_q3/project/docs/architecture.md
+/c/Users/Guest User/git_prework/l6_q3/project/scripts/process_orders.txt
+/c/Users/Guest User/git_prework/l6_q3/project/sql/create_orders.sql
+=== Part 2: Add Important Project Files ===
+# Orders Practice Project
+
+A small project used to demonstrate a clear repository structure.
+
+Main folders:
+
+- scripts/ - processing files
+- sql/ - SQL files
+- docs/ - project documentation
+?? .gitignore
+?? README.md
+pandas
+pyarrow
+=== Part 3: Organise Configuration, Data, and Documentation ===
+{
+  "environment": "dev",
+  "database_host": "localhost"
+}
+?? .gitignore
+?? config/
+# Architecture
+
+~~~text
+Source
+  |
+  v
+Processing
+  |
+  v
+Target
+~~~
+=== Part 4: Review and Version the Structure ===
+total 0
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 02:14 .
+drwxr-xr-x 1 Guest User 197121 0 Nov 26 02:14 ..
+-rw-r--r-- 1 Guest User 197121 0 Nov 26 02:14 .gitkeep
+A  .gitignore
+A  README.md
+A  config/config.example.json
+A  data/sample/.gitkeep
+A  docs/.gitkeep
+A  requirements.txt
+A  scripts/.gitkeep
+A  sql/.gitkeep
+4104d97 Add clean project structure
+=== Optional Practice (Q.18 - Q.20) ===
+?? .gitignore
+?? README.md
+?? data/
+# Project Structure
+
+- config/ - non-secret configuration examples
+- data/sample/ - small safe input examples
+- scripts/ - processing or utility code
+- sql/ - SQL files
+- docs/ - detailed project documentation
+- tests/ - test files when the project uses automated tests
+Normal status:
+?? .gitignore
+?? README.md
+?? config/
+?? data/
+?? docs/
+?? requirements.txt
+?? scripts/
+?? sql/
+?? tests/
+Including ignored files:
+?? .gitignore
+?? README.md
+?? config/
+?? data/
+?? docs/
+?? requirements.txt
+?? scripts/
+?? sql/
+?? tests/
+!! .env
+!! data/output/
+!! data/raw/
