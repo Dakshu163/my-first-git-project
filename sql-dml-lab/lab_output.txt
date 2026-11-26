@@ -1,0 +1,27 @@
+=== Part 1: Insert Data ===
+Q.1: [(4, 'priya@example.com', 'Priya Nair', 'Bengaluru')]
+Q.2: [(5, 'arjun@example.com', 'Arjun Mehta', 'Ahmedabad'), (6, 'kavya@example.com', 'Kavya Iyer', 'Chennai')]
+Q.3: [(104, 3, '2026-08-04', 'PLACED', 999)]
+
+=== Part 2: Update Data Safely ===
+Q.5 Preview: [(2, 'Neha Shah', 'Mumbai')]
+Q.6 Updated: [(2, 'neha@example.com', 'Neha Shah', 'Pune')]
+Q.7 Updated: [(101, 1, '2026-08-01', 'SHIPPED', 1250)]
+
+=== Part 3: Delete and Referential Integrity ===
+Q.9 After delete 104: []
+Q.10 PLACED orders: []
+Q.11 Expected FK error: FOREIGN KEY constraint failed
+
+=== Part 4: Transactions, Commit, and Rollback ===
+Q.13 In transaction: [(3, 'rahul@example.com', 'Rahul Verma', 'Jaipur')]
+Q.13 After rollback: [(3, 'rahul@example.com', 'Rahul Verma', 'Delhi')]
+Q.14 After commit: [(3, 'rahul@example.com', 'Rahul Verma', 'Gurugram')]
+
+=== Optional Practice (Q.17 - Q.20) ===
+Q.17 Expected UNIQUE error: UNIQUE constraint failed: customers.email
+Q.18 PROCESSING orders: []
+Q.19 Deleted in tx: []
+Q.19 Restored after rollback: [(102, 2, '2026-08-02', 'SHIPPED', 850)]
+Q.20 Customer 8: [(8, 'sara@example.com', 'Sara Khan', 'Hyderabad')]
+Q.20 Order 108: [(108, 8, '2026-08-08', 'SHIPPED', 1750)]
