@@ -1,0 +1,185 @@
+=== Part 1: Explain the Project Clearly ===
+# Orders Data Practice Project
+# Orders Data Practice Project
+
+This project reads a small orders dataset, applies simple data-cleaning steps, and prepares a clean output that can be used for reporting practice.
+# Orders Data Practice Project
+
+## Problem Statement
+
+Order data can arrive with inconsistent values and may not be ready for reporting. This project demonstrates a small workflow for organising the source data and producing a cleaner reporting-ready file.
+=== Part 2: Document Setup and Usage ===
+# Orders Data Practice Project
+
+## Prerequisites
+
+Before using this project, make sure you have:
+
+- Git
+- Python 3
+# Orders Data Practice Project
+
+## Setup
+
+1. Open a terminal.
+2. Move into the project directory.
+3. Check the available files.
+
+~~~bash
+cd orders-data-project
+ls -la
+~~~
+# Orders Data Practice Project
+
+## Usage
+
+Run the processing script from the project root:
+
+~~~bash
+python3 scripts/process_orders.py
+~~~
+
+The command reads the practice input and creates the project output.
+=== Part 3: Explain Structure, Architecture, and Output ===
+# Orders Data Practice Project
+
+## Project Structure
+
+~~~text
+config/       configuration examples
+data/sample/  small safe sample data
+scripts/      processing scripts
+sql/          SQL files
+docs/         detailed documentation
+~~~
+# Orders Data Practice Project
+
+## Architecture
+
+~~~text
+Sample Data
+    |
+    v
+Processing
+    |
+    v
+Clean Output
+~~~
+# Orders Data Practice Project
+
+## Expected Output
+
+A successful practice run should print:
+
+~~~text
+Processed rows: 3
+Rejected rows: 1
+~~~
+=== Part 4: Make the README Safer and Easier to Use ===
+# Orders Data Practice Project
+
+## Configuration
+
+Use `config.example.env` to see which configuration values are required.
+
+Create your own local `.env` file for real values.
+
+Do not commit passwords, tokens, or private keys to the repository.
+# Orders Data Practice Project
+
+## Troubleshooting
+
+### `python3: command not found`
+
+Check that Python 3 is installed and available in your terminal.
+
+### Input file not found
+
+Make sure the sample file exists in the path shown in the project instructions.
+# Orders Data Practice Project
+
+## Documentation
+
+See the [architecture notes](docs/architecture.md) for more detail.
+=== Optional Practice (Q.19 - Q.20) ===
+3:## Problem Statement
+6:## Architecture
+9:## Prerequisites
+12:## Setup
+15:## Usage
+18:## Project Structure
+21:## Expected Output
+24:## Troubleshooting
+# Orders Data Practice Project
+
+This project uses a small orders dataset to demonstrate a simple data-processing project structure.
+
+## Problem Statement
+
+Raw order data may need basic cleaning before it can be used for reporting. This project shows a small practice flow from sample input to clean output.
+
+## Architecture
+
+~~~text
+Sample Orders
+     |
+     v
+Processing Script
+     |
+     v
+Clean Output
+~~~
+
+## Prerequisites
+
+- Git
+- Python 3
+
+## Setup
+
+Open a terminal and move to the project directory.
+
+~~~bash
+cd orders-data-project
+~~~
+
+## Usage
+
+Run:
+
+~~~bash
+python3 scripts/process_orders.py
+~~~
+
+## Project Structure
+
+~~~text
+config/       configuration examples
+data/sample/  safe sample data
+scripts/      processing scripts
+sql/          SQL files
+docs/         detailed documentation
+~~~
+
+## Configuration
+
+Use configuration example files as templates.
+
+Do not commit passwords, tokens, or private keys.
+
+## Expected Output
+
+~~~text
+Processed rows: 3
+Rejected rows: 1
+~~~
+
+## Troubleshooting
+
+If the input file is missing, verify the sample-data path.
+
+If `python3` is not found, confirm Python 3 is installed.
+
+## More Documentation
+
+See [architecture details](docs/architecture.md).
