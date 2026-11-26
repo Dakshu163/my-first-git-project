@@ -1,0 +1,28 @@
+Verified tables created: ['customers', 'order_items', 'orders', 'products']
+
+Table: customers
+  ('customer_id', 'INT', 'NULL', '')
+  ('email', 'VARCHAR(120)', 'NOT NULL', '')
+  ('customer_name', 'VARCHAR(150)', 'NOT NULL', '')
+  ('city', 'VARCHAR(60)', 'NULL', '')
+  ('phone', 'VARCHAR(20)', 'NULL', '')
+  ('country', 'VARCHAR(60)', 'NOT NULL', "DEFAULT 'India'")
+  ('created_at', 'DATETIME', 'NULL', 'DEFAULT CURRENT_TIMESTAMP')
+
+Table: order_items
+  ('order_id', 'INT', 'NOT NULL', '')
+  ('product_id', 'INT', 'NOT NULL', '')
+  ('quantity', 'INT', 'NOT NULL', '')
+  ('unit_price', 'DECIMAL(10,2)', 'NOT NULL', '')
+
+Table: orders
+  ('order_id', 'INT', 'NULL', '')
+  ('customer_id', 'INT', 'NOT NULL', '')
+  ('order_date', 'DATE', 'NOT NULL', '')
+  ('status', 'VARCHAR(20)', 'NOT NULL', "DEFAULT 'PLACED'")
+
+Table: products
+  ('product_id', 'INT', 'NULL', '')
+  ('sku', 'VARCHAR(40)', 'NOT NULL', '')
+  ('product_name', 'VARCHAR(100)', 'NOT NULL', '')
+  ('price', 'DECIMAL(10,2)', 'NOT NULL', '')
